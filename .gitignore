@@ -1,0 +1,23 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Keras & Matplotlib Local Caches
+.keras/
+.matplotlib/
+
+# System / OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Large Model Weights (Optional: comment if you want to push models under 100MB)
+# models/*.keras
